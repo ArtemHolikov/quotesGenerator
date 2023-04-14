@@ -1,0 +1,62 @@
+body {
+    background: url('https://gamerwall.pro/uploads/posts/2022-03/1647909278_4-gamerwall-pro-p-fon-dlya-tsitat-krasivie-4.jpg') center center / cover no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.quotes-block {
+    display: block;
+    border: 1px solid #000;
+    width: 900px;
+    height: 550px;
+    margin: 150px auto 0;
+    border-radius: 30px;
+    background-color: rgb(243, 228, 208);
+    padding-left: 15px;
+    padding-right: 15px;
+    opacity: 0.7;
+}
+
+.quotes-block__title {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 1px solid #000;
+}
+
+.quotes-block__quote, .quotes-block__author {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes-block__author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#btn {
+    background: none;
+    display: block;
+    margin: 30px auto 0;
+    width: 200px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    transition: background-color .5s ease;
+}
+
+#btn:hover {
+    background-color: rgb(243, 228, 208);
+}
